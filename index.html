@@ -19,7 +19,7 @@
                 <img src="./img/logo.svg" alt="Logo">
             </div>
             <!-- Menu -->
-            <nav class="hidden md:flex space-x-6">
+            <nav class="hidden space-x-6 md:flex">
                 <a href="#" class="hover:text-darkGrayishBlue transition ease-in-out delay-150">Pricing</a>
                 <a href="#" class="hover:text-darkGrayishBlue transition ease-in-out delay-150">Product</a>
                 <a href="#" class="hover:text-darkGrayishBlue transition ease-in-out delay-150">About Us</a>
@@ -28,15 +28,31 @@
             </nav>
             <!-- Button -->
             <a href="#"
-                class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full align-baseline hover:bg-brightRedLight transition ease-in-out delay-150">Get
+                class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full align-baseline hover:bg-brightRedLight transition ease-in-out delay-150 md:block">Get
                 Started</a>
         </div>
     </header>
 
     <!-- Hero -->
     <section id="hero">
-        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
-            
+        <div class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:flex-row md:space-y-0">
+            <!-- Hero Text -->
+            <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">Bring everyone together to
+                    build better products. </h1>
+                <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Corporis adipisci similique iure culpa enim
+                    repellendus, placeat alias obcaecati mollitia. Similique?</p>
+                <div class="flex justify-center md:justify-start">
+                    <a href="#"
+                        class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full align-baseline transition ease-in-out delay-150 hover:bg-brightRedLight">Get
+                        Started</a>
+                </div>
+            </div>
+            <!-- Hero Image -->
+            <div class="md:w-1/2">
+                <img src="./img/illustration-intro.svg" alt="">
+            </div>
         </div>
     </section>
 </body>
