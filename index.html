@@ -6,11 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind Landing Page</title>
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-    <h1 class="text-3xl font-semibold">Tailwind CSS</h1>
+    <!-- Navbar -->
+    <header class="relative container mx-auto p-6">
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div class="pt-2">
+                <img src="./img/logo.svg" alt="Logo">
+            </div>
+            <!-- Menu -->
+            <nav class="hidden md:flex space-x-6">
+                <a href="#" class="hover:text-darkGrayishBlue transition ease-in-out delay-150">Pricing</a>
+                <a href="#" class="hover:text-darkGrayishBlue transition ease-in-out delay-150">Product</a>
+                <a href="#" class="hover:text-darkGrayishBlue transition ease-in-out delay-150">About Us</a>
+                <a href="#" class="hover:text-darkGrayishBlue transition ease-in-out delay-150">Careers</a>
+                <a href="#" class="hover:text-darkGrayishBlue transition ease-in-out delay-150">Community</a>
+            </nav>
+            <!-- Button -->
+            <a href="#"
+                class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full align-baseline hover:bg-brightRedLight transition ease-in-out delay-150">Get
+                Started</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+            
+        </div>
+    </section>
 </body>
 
 </html>
